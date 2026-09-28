@@ -126,7 +126,7 @@ public class ReservationModel {
     public String toString() {
         return "ReservationModel{" +
                 "id=" + id +
-                ", customer='" + customer + ''' +
+                ", customer='" + customer + '\'' +
                 ", car=" + (car != null ? car.getId() : null) +
                 ", startDate=" + startDate +
                 ", endDate=" + endDate +
